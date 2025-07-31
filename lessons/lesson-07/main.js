@@ -8,7 +8,7 @@ function createBuilding (buildingName, goldCost){
         console.log(`${buildingName}: not enough resources!`);
     }
 }
-function increaseResource(currentAmount, increment){
+function increaseResource(currentAmount, increment=10){
     return currentAmount+increment;
 }
 function reduceResource(currentAmount, increment=10){
