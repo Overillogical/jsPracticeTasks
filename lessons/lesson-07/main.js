@@ -11,7 +11,7 @@ function createBuilding (buildingName, goldCost){
 function increaseResource(currentAmount, increment){
     return currentAmount+increment;
 }
-function reduceResource(currentAmount, increment){
+function reduceResource(currentAmount, increment=10){
     return currentAmount - increment;
 }
 createBuilding('Tower',  30);
