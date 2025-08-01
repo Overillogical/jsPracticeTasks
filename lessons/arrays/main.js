@@ -11,3 +11,14 @@ function reverseArray(array){
 }
 
 console.log(reverseArray(array));
+
+
+function removeElement(array,element){
+    let newArray = [];
+    for (let i = 0;i<array.length;i++){
+        if(array[i] !== element) newArray.push(array[i]);
+    }
+    return newArray;
+}
+
+console.log(removeElement(array,2));
